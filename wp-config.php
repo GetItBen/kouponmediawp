@@ -16,23 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
-
-/** MySQL database username */
-define('DB_USER', 'username_here');
-
-/** MySQL database password */
-define('DB_PASSWORD', 'password_here');
-
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
-
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
-
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
-
+if (isset($_SERVER["DATABASE_URL"])) {
+ $db = parse_url($_SERVER["DATABASE_URL"]);
+ define("DB_NAME", trim($db["path"],"/"));
+ define("DB_USER", $db["user"]);
+ define("DB_PASSWORD", $db["pass"]);
+ define("DB_HOST", $db["host"]);
+}
+else {
+ die("Your heroku DATABASE_URL does not appear to be correctly specified.");
+}
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -42,14 +35,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'gMjU9+#(WSK~RcTWx=|{`(?yNxUdqTTCjbqhn=l-vg,_E`39;-;-$yRN%d;r_FcL');
+define('SECURE_AUTH_KEY',  'R[G.v1q-o9^v<S&/_wCH>X34n+,$KHYeWOJ+Voz5EWOL;fCJAZ(qx||*xSs[8EnW');
+define('LOGGED_IN_KEY',    'T<]iK] 607`x%ET{0H|puraXoc#y|o~k3$T+v+nF}y:.0@X>V6DJrJRS.-lDT sF');
+define('NONCE_KEY',        '`j]1RPl4:I!uQX(>)BM};q;P[+C{@2|tE/It1xf.]vJEi0/W}LLczTLkN$e*fA$-');
+define('AUTH_SALT',        'X<@Rr:<6+E@fhPA`2<jFDJBZP EOQG=HMJqNhY3AEj`Z5Nz+eZ$[?(qNAfap98q0');
+define('SECURE_AUTH_SALT', 'v?j%au|9|I|q_2&xYXPEmG43Kl[h4(I*R0Dzt4* PEzCJH&Un/P*PW-:9]&!)AX4');
+define('LOGGED_IN_SALT',   '#XxaTLO_^aZ-Dj?T?EZm;-Eps0<1]b`=h[ak@`/4l{W  MyEv[Le;T^Qa/dN]$Jx');
+define('NONCE_SALT',       ']`:$<m7|WK}0!V;@at6It+zl3F:Zso9)?I4[;[8IvF==`*ACr#Ll!Z_Az~6d*[>0');
 
 /**#@-*/
 
@@ -70,6 +63,8 @@ $table_prefix  = 'wp_';
  * language support.
  */
 define('WPLANG', '');
+
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] );
 
 /**
  * For developers: WordPress debugging mode.
