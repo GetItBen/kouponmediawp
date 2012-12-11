@@ -116,8 +116,7 @@
     <div id="schedule">
       <div class="inner">
         <span>Schedule a Demo</span>
-        <?php echo do_shortcode( '[contact-form-7 id="31" title="Contact form 1"]' ); ?>
-<!--
+        <?php echo do_shortcode( '[contact-form-7 id="41" title="Untitled"]' ); ?>
         <div class="scheduleform">
           <form action="" method="post">
             <div class="line"></div>
@@ -127,7 +126,7 @@
             <input type="submit" name="submit" id="submit" value="Submit" />
             <img src="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/icon-scheduleClose.png" alt="Close" class="scheduleClose" />
           </form>
-        </div> -->
+        </div>
       </div>
     <!-- schedule -->
     </div>
