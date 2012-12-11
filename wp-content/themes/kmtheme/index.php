@@ -4,7 +4,7 @@
     <title>Koupon Media</title>
     
     <link rel="stylesheet" type="text/css" href="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/css/reset.css"  />
-    <link rel="stylesheet" href="style.css" type="text/css"  />
+    <link rel="stylesheet" href="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/style.css" type="text/css"  />
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>
