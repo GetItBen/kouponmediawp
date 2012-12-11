@@ -123,7 +123,7 @@
             <input type="text" name="company" id="company" placeholder="Company" />
             <input type="text" name="email" id="email" placeholder="Email address" />
             <input type="submit" name="submit" id="submit" value="Submit" />
-            <img src="images/icon-scheduleClose.png" alt="Close" class="scheduleClose" />
+            <img src="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/icon-scheduleClose.png" alt="Close" class="scheduleClose" />
           </form>
         </div>
       </div>
@@ -152,7 +152,7 @@
       
       <div class="slider">
         <ul>
-          <li id="1" class="on" style="background: url('images/slider/slide1.png') center no-repeat;">
+          <li id="1" class="on" style="background: url('http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/slider/slide1.png') center no-repeat;">
             <div class="slider_inner">
               <div class="text">
                 <h1>Brand Solutions:</h1>
@@ -164,11 +164,11 @@
                 <a class="scheduleDemo">Schedule a Demo</a>
                 </p>
               </div>
-              <img class="slide_img" src="images/slider/img3.png" />            
+              <img class="slide_img" src="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/slider/img3.png" />            
             </div>
           </li>
           
-          <li id="2"  class="" style="background: url('images/slider/slide2.png') center no-repeat;">
+          <li id="2"  class="" style="background: url('http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/slider/slide2.png') center no-repeat;">
             <div class="slider_inner">
               <div class="text">
                 <h1>Retail Solutions:</h1> 
@@ -181,11 +181,11 @@
                 <a class="scheduleDemo">Schedule a Demo</a>
                 </p>
               </div>
-              <img class="slide_img" src="images/slider/img2.png" />
+              <img class="slide_img" src="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/slider/img2.png" />
             </div>
           </li>
           
-          <li id="3"  class="" style="background: url('images/slider/slide3.png') center no-repeat;">
+          <li id="3"  class="" style="background: url('http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/slider/slide3.png') center no-repeat;">
             <div class="slider_inner">
               <div class="text">
                 <h1>Digital Campaign Management</h1>
@@ -196,7 +196,7 @@
                 <a class="scheduleDemo">Schedule a Demo</a>
                 </p>
               </div>
-              <img class="slide_img" src="images/slider/img1.png" />
+              <img class="slide_img" src="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/slider/img1.png" />
             </div>
           </li>
                     
@@ -214,9 +214,9 @@
        <div class="overlay">
         <div class="slide_div"></div>
         <div class="logos">
-          <img src="images/logos-711.png" alt="7/11" />
-          <img src="images/logos-michaels.png" alt="Michaels" />
-          <img src="images/logos-pepsi.png" alt="Pepsi" />
+          <img src="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/logos-711.png" alt="7/11" />
+          <img src="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/logos-michaels.png" alt="Michaels" />
+          <img src="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/images/logos-pepsi.png" alt="Pepsi" />
         </div>
        <!-- overlay --> 
        </div>
