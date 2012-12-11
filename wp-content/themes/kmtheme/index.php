@@ -131,13 +131,13 @@
     </div>
     <div id="header">
       <div class="inner">
-        <h1><a href="index.php" title="Koupon Media">Koupon Media</a></h1>
+        <h1><a href="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/index.php" title="Koupon Media">Koupon Media</a></h1>
         
         <div id="nav">
           <ul>
-            <li><a href="retailers.html" title="Retailers">Retailers</a></li>
-            <li><a href="brands.html" title="Brands">Brands</a></li>
-            <li><a href="partners.html" title="Partners">Partners</a></li>
+            <li><a href="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/retailers.html" title="Retailers">Retailers</a></li>
+            <li><a href="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/brands.html" title="Brands">Brands</a></li>
+            <li><a href="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/partners.html" title="Partners">Partners</a></li>
             <li><a title="Schedule a Demo" class="icon scheduleDemo">Schedule a Demo</a></li>
             <li><a href="http://portal.kouponmedia.com/" title="Sign In" class="icon">Sign In</a></li>
           </ul>
@@ -228,9 +228,9 @@
     
       <div class="inner">
         <ul>
-          <li><a href="career.html" title="Careers">Careers</a></li>
-          <li><a href="company.html" title="Our Company">Our Company</a></li>
-          <li><a href="contact.html" title="Contact">Contact</a></li>
+          <li><a href="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/career.html" title="Careers">Careers</a></li>
+          <li><a href="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/company.html" title="Our Company">Our Company</a></li>
+          <li><a href="http://kouponmediawp.herokuapp.com/wp-content/themes/kmtheme/contact.html" title="Contact">Contact</a></li>
           <!--<li><a href="#" title="New">News</a></li>
           <li><a href="#" title="Developer Center">Developer Center</a></li>-->
         </ul>
