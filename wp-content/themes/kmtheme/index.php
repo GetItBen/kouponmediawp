@@ -4,7 +4,7 @@
     <title>Koupon Media</title>
     
     <link rel="stylesheet" type="text/css" href="css/reset.css"  />
-    <link rel="stylesheet" type="text/css" href="css/style.css"  />
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css"  />
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>
